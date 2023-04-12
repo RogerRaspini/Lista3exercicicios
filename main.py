@@ -1,9 +1,10 @@
-raio = float(input('informe o raio do circulo:' ))
-pi = float(3.14159)
-área = pi * (raio **2)
-print('O raio do circulo é' , raio)
-alturaC = float(input('informe a altura do cilindro: '))
-áreaC = área * alturaC
-print ('A altura do cilindro é' , áreaC )
+area = float(input('diga a área da casa em m3: '))
+qtdrj = area / 3
+qtdarg = area / 5
+msgRejunte = f'a quantidade de rejunte a ser usada é: {qtdrj:.2f} kg'
+print(msgRejunte)
+
+print ('a quantidade de argamassa a ser usada é: ' , qtdarg , 'kg')
+
 
 
