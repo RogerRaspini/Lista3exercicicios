@@ -1,4 +1,7 @@
-x = float(input('informe um valor:' ))
-resultado = (x **2) + (2 * x) - 4
-print ('o resultado da expressão é' , resultado)
-
+parcelaspagas = int(input('Quantas parcelas foram pagas do consórcio?: '))
+totalparcelas = 24
+valorparcelas = 1000
+totalpago = parcelaspagas * valorparcelas
+otantoquefalta = totalparcelas - parcelaspagas
+saldodevedor = otantoquefalta * 1000
+print (f'Voce pagou {totalpago} R$, e deve {otantoquefalta} parcelas, no valor de {saldodevedor} R$')
